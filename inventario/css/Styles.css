@@ -8,7 +8,7 @@ body, html {
     background-color: #000000;
 }
 
-/*--------------------------------- .form-box ---------------------------------*/
+/* ============================= .form-box ============================= */
 .form-box {
     padding: 1.5rem;
     /*border: solid #f7f7f9;*/
@@ -16,13 +16,3 @@ body, html {
 .form-box input {
     width: 100%;
 }
-
-
-
-
-/*.red {
-    background-color:red;
-}
-.blue {
-    background-color:blue;
-}*/

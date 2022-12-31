@@ -12,13 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/temp.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <%--TODO--%>
     <%--Componentes de Bootstrap -> https://getbootstrap.com/docs/4.0/components/ --%>
     <div class="container-fluid bg-danger">
         <div class="row px-2 py-3 bg-white container-form">
-            <div class="col red"></div>
+            <div class="col"></div>
             <div class="col py-3 border">
                 <form class="form-box" action="/" method="post">
                     <div class="form-group">
@@ -32,7 +33,7 @@
                     <button type="submit" class="btn-primary">Enviar</button>
                 </form>
             </div>
-            <div class="col blue"></div>
+            <div class="col"></div>
         </div>
 
 
