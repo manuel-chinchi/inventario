@@ -1,1 +1,28 @@
-﻿
+﻿/*------------------------ general styles ------------------------*/
+body, html {
+    height: 100%;
+}
+
+/*------------------------ custom colors ------------------------*/
+.bg-black {
+    background-color: #000000;
+}
+
+/*--------------------------------- .form-box ---------------------------------*/
+.form-box {
+    padding: 1.5rem;
+    /*border: solid #f7f7f9;*/
+}
+.form-box input {
+    width: 100%;
+}
+
+
+
+
+/*.red {
+    background-color:red;
+}
+.blue {
+    background-color:blue;
+}*/
