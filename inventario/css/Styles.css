@@ -16,3 +16,12 @@ body, html {
 .form-box input {
     width: 100%;
 }
+/* ============================= .btn-box ============================= */
+.btn-box {
+    width: 100%;
+    text-align: center;
+}
+/* ============================= .header-box ============================= */
+.header-box {
+    text-align: center;
+}

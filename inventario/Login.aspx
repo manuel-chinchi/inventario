@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/temp.css" rel="stylesheet" type="text/css"/>
+    <link href="css/temp.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <%--TODO--%>
@@ -21,16 +21,24 @@
         <div class="row px-2 py-3 bg-white container-form">
             <div class="col"></div>
             <div class="col py-3 border">
-                <form class="form-box" action="/" method="post">
+                <form class="form-box" runat="server">
+                    <div class="header-box">
+                        <h3>Ingresar</h3>
+                    </div>
+                    <br />
                     <div class="form-group">
-                        <label>Dirección email</label>
-                        <input type="email" name="form-control" />
+                        <label>Usuario</label>
+                        <asp:TextBox ID="txtUser" CssClass="form-control" AutoCompleteType="Email" runat="server" />
                     </div>
                     <div class="form-group">
                         <label>Constraseña</label>
-                        <input type="text" name="form-control" />
+                        <asp:TextBox ID="txtPasword" CssClass="form-control" MaxLength="16" runat="server" />
                     </div>
-                    <button type="submit" class="btn-primary">Enviar</button>
+                    <br />
+                    <br />
+                    <div class="btn-box">
+                        <asp:Button ID="btnIngresar" Text="Enviar" CssClass="btn btn-primary btn-block" runat="server" />
+                    </div>
                 </form>
             </div>
             <div class="col"></div>
