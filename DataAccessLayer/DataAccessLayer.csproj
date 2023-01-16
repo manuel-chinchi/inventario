@@ -49,5 +49,10 @@
       <Name>EntitiesLayer</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="scripts\cargar_registros.sql" />
+    <Content Include="scripts\crear_basededatos.sql" />
+    <Content Include="scripts\crear_tablas.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
