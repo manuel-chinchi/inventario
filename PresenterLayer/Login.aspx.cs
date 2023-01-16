@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using EntitiesLayer;
+using BusinessLayer;
 
 public partial class Login : System.Web.UI.Page
 {
-    private Tuple<string, string> defaultUser = Tuple.Create<string, string>("admin", "1234");
-
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -16,16 +16,15 @@ public partial class Login : System.Web.UI.Page
 
     protected void btnLogin_Click(object sender, EventArgs e)
     {
-        string user = txtUser.Text;
-        string password = txtPasword.Text;
+        Usuario objUsuario = UsuarioBL.getInstance().AccesoSistema(txtUser.Text, txtPasword.Text);
 
-        if (user.Equals(defaultUser.Item1) && password.Equals(defaultUser.Item2))
+        if (objUsuario != null)
         {
-            Response.Write("<script>alert('Ingreso exitoso!')</script>");
+            Response.Write("<script>alert('Acceso exitoso!!!')</script>");
         }
         else
         {
-            Response.Write("<script>alert('Error de ingreso!')</script>");
+            Response.Write("<script>alert('Error!!!')</script>");
         }
     }
 }
