@@ -11,7 +11,7 @@ body, html {
 /* ============================= .form-box ============================= */
 .form-box {
     padding: 1.5rem;
-    /*border: solid #f7f7f9;*/
+    width:100%;
 }
 .form-box input {
     width: 100%;
@@ -24,4 +24,35 @@ body, html {
 /* ============================= .header-box ============================= */
 .header-box {
     text-align: center;
+}
+
+/*.container-form {
+    border: 3px solid;
+    background-color: red !important;
+}*/
+
+@media (min-width: 1200px) {
+    .container-form {
+        width: 20em;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .container-form {
+        width:20em;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .container-form {
+        width: 20em;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .container-form {
+        width: 22em;
+    }
+}
+@media (max-width: 575px) {
+    .container-form {
+        width: 22em;
+    }
 }

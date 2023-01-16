@@ -15,9 +15,9 @@
     <%--TODO--%>
     <%--Componentes de Bootstrap -> https://getbootstrap.com/docs/4.0/components/ --%>
     <div class="container-fluid bg-danger">
-        <div class="row px-2 py-3 bg-white container-form">
+        <div class="row px-2 py-3 bg-white">
             <div class="col"></div>
-            <div class="col py-3 border">
+            <div class="container-form py-3 border">
                 <form class="form-box" runat="server">
                     <div class="header-box">
                         <h3>Iniciar sesión</h3>
