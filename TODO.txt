@@ -4,3 +4,15 @@ https://www.codeply.com/go/raCutAGHre
 [ver separacion de pryecto en N-capas]
 https://www.youtube.com/watch?https://youtu.be/xZNgJio9JTk?list=PLdnPhmxxRm5nTz_DtKMIr8E0_LczfVcJ2&t=109
 [Ctrl+Shift+U -> convierte a mayuscula (visual studio IDE)]
+
+[ejemplo de connection string]
+C:\Users\Esteban\ESTEBAN\Programacion_C#\@LEGISLATURA-CABA\Compras(29-11-19)\dgcompras\Template_Default\Web.config
+
+[crear usuario para una base de datos]
+https://www.youtube.com/watch?v=GrH58D9Guuw&ab_channel=ExcelyM%C3%A1s
+
+[media queries css]
+https://ajgallego.gitbook.io/bootstrap-4/media-queries
+
+[para obtener el nombre del servidor para el ConnectionString]
+Explorar de objetos (click derecho sobre el servidor) > Propiedades > General > Nombre.
